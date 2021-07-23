@@ -4,6 +4,7 @@ namespace Cadastro.Filmes.Interfaces
 {
     public interface IRepositorio<T>
     {
+        // tipos de funções que vão ser aplicadas no app
         List<T> Lista();
         T RetornaPorId(int id);        
         void Insere(T entidade);        

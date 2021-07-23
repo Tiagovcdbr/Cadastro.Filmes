@@ -1,5 +1,6 @@
 namespace Cadastro.Filmes
 {
+	// Categorias dos filmes e séries que serão utilizadas na listagem
 	public enum Genero
 	{
 		Acao = 1,

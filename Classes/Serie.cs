@@ -11,7 +11,7 @@ namespace Cadastro.Filmes
 		private int Ano { get; set; }
         private bool Excluido {get; set;}
 
-        // Métodos
+        // Métodos que são usados como classes para identificar os parametros que vão aparecer na tela ao executar a aplicação
 		public Serie(int id, Genero genero, string titulo, string descricao, int ano)
 		{
 			this.Id = id;
@@ -33,6 +33,7 @@ namespace Cadastro.Filmes
             retorno += "Excluido: " + this.Excluido;
 			return retorno;
 		}
+		// aqui é onde é criado as strings de ações da aplicação
 
         public string retornaTitulo()
 		{
